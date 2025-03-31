@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Trejo Abogados</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header class="encabezado">
+        <a href="../index.html">
+            <img src="../imagenes/logo.png" alt="Logo del bufete" class="encabezado__logo">
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+    
+            <nav class="menu">
+                   <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a href="../index.html" class="menu__enlace">Inicio</a>
+                    </li>
+                    <li class="menu__item menu__item--submenu">
+                        <a href="../menu/servicios.html" class="menu__enlace">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="../menu/asesorialegal.html" class="submenu__enlace">Asesoría Legal</a></li>
+                            <li><a href="../menu/derechofamiliar.html" class="submenu__enlace">Derecho Familiar</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="../menu/nosotros.html" class="menu__enlace">Nosotros</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="../menu/contacto.html" class="menu__enlace">Contacto</a>
+                    </li>
+                </ul>
+                
+            </nav>
+    </header>
+
+    <div class="contenido contacto">
+        <div class="contenedor">
+            <h2 class="contacto__titulo">Contacto</h2>
+            <div class="contacto__info">
+                <div class="contacto__opciones">
+                    <h3>Nuestras Opciones de Contacto</h3>
+                    <p><strong>Teléfono:</strong> <a href="tel:+521234567890">+52 1 234 567 890</a></p>
+                    <p><strong>Correo Electrónico:</strong> <a href="mailto:info@trejoabogado.com">info@trejoabogado.com</a></p>
+                    <p><strong>WhatsApp:</strong> <a href="https://wa.me/521234567890?text=Hola,%20quiero%20contactarlos">Envíanos un mensaje</a></p>
+                    <p><strong>Dirección:</strong> Calle Principal #123, Ciudad Valles, San Luis Potosi, México</p>
+                </div>
+
+                <div class="contacto__formulario">
+                    <h3>Formulario de Contacto</h3>
+                    <form>
+                        <div class="grupo-formulario">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+                        </div>
+                        <div class="grupo-formulario">
+                            <label for="apellido">Apellido:</label>
+                            <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required>
+                        </div>
+                        <div class="grupo-formulario">
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico" required>
+                        </div>
+                         <div class="grupo-formulario">
+                            <label for="contrasena">Contraseña:</label>
+                            <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña" required>
+                        </div>
+                        <div class="grupo-formulario">
+                            <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+                        </div>
+                        <div class="grupo-formulario">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" placeholder="Ingrese su mensaje" required></textarea>
+                        </div>
+                        <button type="submit" class="boton">Enviar Mensaje</button>
+                         <div class="grupo-formulario">
+                           <p> Si tiene una cuenta, <a href="#"> Inicie sesión </a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie">
+        <p class="pie__texto">Síguenos en nuestras redes sociales</p>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/tucuenta" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/tucuenta" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+             <a href="https://www.tiktok.com/@tucuenta" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://wa.me/521234567890" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="pie__texto">Derechos reservados © 2023 Bufete de Abogados Trejo</p>
+    </footer>
+</body>
+</html>
